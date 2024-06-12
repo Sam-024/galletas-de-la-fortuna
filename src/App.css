@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*----- RESET -----*/
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: "Kanit", sans-serif;
+}
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+button{
+    cursor: pointer;
+    font-family: inherit;
+    text-align: center;
+    border: none;
+}
+/*----- APP -----*/
+.app{
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.app__title{
+    font-size: 5rem;
+    margin-top: 90px;
+    width: 350px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.137)
+}
+.app__phrase{
+    color: rgb(60, 60, 60);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 40px; 
+    width: 90%;
+    border-radius: 5px;
+
+
+}
+.app__btn{
+    color: rgb(60, 60, 60);
+    padding: 6px 17px;
+    background-color: rgba(255, 255, 255, 0.688);
+    border: 1.5px solid;
+    border-color: white;
+    border-radius:5px;
+    margin-bottom: 20px;
+    transition: transform .5s;
+}
+.app__btn:hover{
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+.app__container{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
